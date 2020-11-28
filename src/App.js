@@ -1,25 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import EducationSection from "./EducationSection";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            <div style={{ textAlign: 'center', fontSize: '50px'}}>Amanda Grice</div>
+            <div style={{ margin: '0 auto', width: '90%', maxWidth: '1000px', height: '100%'}}>
+                <EducationSection />
+            </div>
+        </div>
+    );
 }
 
 export default App;
