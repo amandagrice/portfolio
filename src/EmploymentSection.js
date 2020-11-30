@@ -1,4 +1,5 @@
-import React from 'react'
+import React, {useState} from 'react'
+import {ToggleDetails} from "./Utilities";
 
 function Company({logo, name, location}) {
     return (
@@ -30,6 +31,7 @@ function Role({title, startDate, endDate}) {
 }
 
 function EmploymentSection() {
+    const [showDetails, setShowDetails] = useState(false)
     return (
         <div>
             <h2>Work Experience</h2>
@@ -72,61 +74,66 @@ function EmploymentSection() {
                 <br/>
             </div>
 
+            {showDetails &&
             <div>
-                <Company
-                    logo="pavlok-logo.png"
-                    name="Pavlok"
-                    location="Boston, MA"
-                />
-                <Role
-                    title="Quality Engineer Intern"
-                    startDate="November 2015"
-                    endDate="May 2016"
-                />
-                <br/>
-            </div>
+                <div>
+                    <Company
+                        logo="pavlok-logo.png"
+                        name="Pavlok"
+                        location="Boston, MA"
+                    />
+                    <Role
+                        title="Quality Engineer Intern"
+                        startDate="November 2015"
+                        endDate="May 2016"
+                    />
+                    <br/>
+                </div>
 
-            <div>
-                <Company
-                    logo="imeasureu-logo.png"
-                    name="IMeasureU"
-                    location="Auckland, New Zealand"
-                />
-                <Role
-                    title="Software Engineer Intern"
-                    startDate="July 2015"
-                    endDate="November 2015"
-                />
-                <br/>
-            </div>
+                <div>
+                    <Company
+                        logo="imeasureu-logo.png"
+                        name="IMeasureU"
+                        location="Auckland, New Zealand"
+                    />
+                    <Role
+                        title="Software Engineer Intern"
+                        startDate="July 2015"
+                        endDate="November 2015"
+                    />
+                    <br/>
+                </div>
 
-            <div>
-                <Company
-                    logo="brant-rock-market-logo.png"
-                    name="Brant Rock Market"
-                    location="Marshield, MA"
-                />
-                <Role
-                    title="Deli Worker"
-                    startDate="May 2014"
-                    endDate="August 2014"
-                />
-                <br/>
-            </div>
+                <div>
+                    <Company
+                        logo="brant-rock-market-logo.png"
+                        name="Brant Rock Market"
+                        location="Marshield, MA"
+                    />
+                    <Role
+                        title="Deli Worker"
+                        startDate="May 2014"
+                        endDate="August 2014"
+                    />
+                    <br/>
+                </div>
 
-            <div>
-                <Company
-                    logo="agganis-logo.jpg"
-                    name="Agganis Arena"
-                    location="Boston, MA"
-                />
-                <Role
-                    title="Operations"
-                    startDate="September 2013"
-                    endDate="June 2017"
-                />
-                <br/>
-            </div>
+                <div>
+                    <Company
+                        logo="agganis-logo.jpg"
+                        name="Agganis Arena"
+                        location="Boston, MA"
+                    />
+                    <Role
+                        title="Operations"
+                        startDate="September 2013"
+                        endDate="June 2017"
+                    />
+                    <br/>
+                </div>
+            </div>}
+            <ToggleDetails showDetails={showDetails} setShowDetails={setShowDetails}/>
+            <br/>
 
         </div>
     )
