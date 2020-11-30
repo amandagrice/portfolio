@@ -4,18 +4,13 @@ import {ToggleDetails} from "./Utilities";
 function Company({logo, name, location}) {
     return (
         <div>
-            <span style={{width: "150px"}}><img src={logo} style={{
-                width: "150px",
-                maxHeight: "50px",
-                verticalAlign: "middle"
-            }}/></span>
-            <span style={{marginLeft: "75px", verticalAlign: "middle", fontWeight: "bold", fontSize: "20px"}}>
-                {name}
-            </span>
-            <span style={{verticalAlign: "middle", float: "right", lineHeight: "75px"}}>
-                {location}
-            </span>
-            <br style={{clear: "both"}}/>
+            <div style={{float: "left", width: "150px", height: "30px", textAlign: "center" }}><img src={logo} className="logo-img" /></div>
+            <div style={{float: "left", marginLeft: "75px", width: "775px", height: "30px"}}>
+                <span style={{fontWeight: "bold", float: "left", fontSize: "20px"}}>{name}</span>
+                <span style={{float: "right"}}>{location}</span>
+                <br style={{clear: "both"}}/>
+            </div>
+            <br/>
         </div>
     )
 }
@@ -23,7 +18,7 @@ function Company({logo, name, location}) {
 function Role({title, startDate, endDate}) {
     return (
         <div style={{marginLeft: "225px"}}>
-            <span style={{float: "left", fontWeight: "bold"}}>{title}</span>
+            <span style={{float: "left"}}>{title}</span>
             <span style={{float: "right"}}>{startDate + " - " + endDate}</span>
             <br style={{clear: "both"}}/>
         </div>
@@ -35,7 +30,7 @@ function EmploymentSection() {
     return (
         <div>
             <h2>Work Experience</h2>
-
+            <br />
             <div>
                 <Company
                     logo="capital-one-logo.png"

@@ -4,8 +4,8 @@ import {ToggleDetails} from "./Utilities";
 function Volunteer({organization, logo, location, role, startDate, endDate}) {
     return (
         <div>
-            <div style={{ float: "left", width: "150px", height: "75px", textAlign: "center"}}><img src={logo} style={{ maxWidth: "150px", maxHeight: "50px" }}/></div>
-            <div style={{ float: "left", marginLeft: "75px", width: "775px" }}>
+            <div style={{ float: "left", width: "150px", height: "30px", textAlign: "center", paddingBottom: "10px", paddingTop: "10px"}}><img src={logo} className="logo-img"/></div>
+            <div style={{ float: "left", marginLeft: "75px", width: "775px", height: "30px" }}>
                 <span style={{ fontWeight: "bold", float: "left", fontSize: "20px"}}>{organization}</span>
                 <span style={{ float: "right"}}>{location}</span>
                 <br style={{ clear: "both"}} />
@@ -23,6 +23,7 @@ function VolunteerSection() {
     return (
         <div>
             <h2>Volunteer Experience</h2>
+            <br />
             <Volunteer
                 logo="citizen-schools-logo.png"
                 organization="Citizen Schools"
@@ -75,7 +76,6 @@ function VolunteerSection() {
                 <br />
             </div>}
             <ToggleDetails showDetails={showDetails} setShowDetails={setShowDetails}/>
-
         </div>
     )
 }
