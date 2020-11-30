@@ -24,6 +24,7 @@ function EducationSection() {
     return (
         <div>
             <h2>Education</h2>
+            <p>A arcu cursus vitae congue. Felis eget nunc lobortis mattis aliquam faucibus purus in. A pellentesque sit amet porttitor eget dolor. Sed turpis tincidunt id aliquet risus feugiat in ante. Quis blandit turpis cursus in hac habitasse platea. Elit at imperdiet dui accumsan sit amet nulla facilisi morbi. Turpis egestas integer eget aliquet nibh praesent tristique. Interdum varius sit amet mattis vulputate enim nulla. Pharetra pharetra massa massa ultricies mi quis hendrerit dolor. Suscipit adipiscing bibendum est ultricies integer quis auctor. Facilisi nullam vehicula ipsum a arcu cursus vitae congue mauris.</p>
             <br />
             <Education
                 school="Boston University"
