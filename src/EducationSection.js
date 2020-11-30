@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Education({school, location, degree, major, graduation}) {
+function Education({logo, school, location, degree, major, graduation}) {
     return (
         <div>
-            <div style={{ float: "left"}}><img src="bu-logo.png" style={{ width: "150px" }}/></div>
+            <div style={{ float: "left", width: "150px"}}><img src={logo} style={{ width: "150px" }}/></div>
             <div style={{ float: "left", marginLeft: "75px", width: "775px" }}>
                 <span style={{ fontWeight: "bold", float: "left", fontSize: "20px"}}>{school}</span>
                 <span style={{ float: "right"}}>{location}</span>
@@ -23,6 +23,7 @@ function EducationSection() {
             <h2>Education</h2>
             <Education
                 school="Boston University"
+                logo="bu-logo.png"
                 location="Boston, MA"
                 degree="Bachelor of Arts"
                 major="Computer Science"

@@ -1,5 +1,7 @@
 import EducationSection from "./EducationSection";
 import EmploymentSection from "./EmploymentSection";
+import VolunteerSection from "./VolunteerSection";
+import ProjectsSection from "./ProjectsSection";
 
 function App() {
     return (
@@ -9,6 +11,10 @@ function App() {
                 <EducationSection />
                 <hr />
                 <EmploymentSection />
+                <hr />
+                {/*<ProjectsSection />*/}
+                {/*<hr />*/}
+                <VolunteerSection />
             </div>
         </div>
     );

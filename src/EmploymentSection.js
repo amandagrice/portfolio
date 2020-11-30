@@ -3,7 +3,7 @@ import React from 'react'
 function Company({logo, name, location}) {
     return (
         <div>
-            <img src={logo} style={{width: "150px", verticalAlign: "middle"}}/>
+            <span style={{ width: "150px"}}><img src={logo} style={{width: "150px", maxHeight: "50px", verticalAlign: "middle"}}/></span>
             <span style={{marginLeft: "75px", verticalAlign: "middle", fontWeight: "bold", fontSize: "20px"}}>
                 {name}
             </span>
