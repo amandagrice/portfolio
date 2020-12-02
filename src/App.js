@@ -2,6 +2,7 @@ import EducationSection from "./EducationSection";
 import EmploymentSection from "./EmploymentSection";
 import VolunteerSection from "./VolunteerSection";
 import AboutSection from "./AboutSection";
+import ProjectsSection from "./ProjectsSection";
 
 function App() {
     return (
@@ -17,8 +18,8 @@ function App() {
                 <hr />
                 <EmploymentSection />
                 <hr />
-                {/*<ProjectsSection />*/}
-                {/*<hr />*/}
+                <ProjectsSection />
+                <hr />
                 <VolunteerSection />
                 <br />
             </div>
