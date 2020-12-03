@@ -3,6 +3,7 @@ import EmploymentSection from "./EmploymentSection";
 import VolunteerSection from "./VolunteerSection";
 import AboutSection from "./AboutSection";
 import ProjectsSection from "./ProjectsSection";
+import SkillsSection from "./SkillsSection";
 
 function App() {
     return (
@@ -15,6 +16,8 @@ function App() {
                 <AboutSection />
                 <img src="me.jpg" style={{ width: "1000px", borderRadius: "40px"}} />
                 <EducationSection />
+                <hr />
+                <SkillsSection />
                 <hr />
                 <EmploymentSection />
                 <hr />
