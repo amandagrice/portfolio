@@ -13,7 +13,7 @@ function Project({ logo, name, tools, description, link }: ProjectProps) {
     return (
         <div style={{ height: "250px", width: "475px", backgroundColor: "#f2f2f5", marginBottom: "25px", float: "left", marginLeft: "25px"}}>
             <div style={{ float: "left"}}>
-                <img src={logo} style={{ marginTop: "25px", marginLeft: "25px", height: "200px", width: "200px"}} />
+                <img src={logo} style={{ marginTop: "25px", marginLeft: "25px", height: "200px", width: "200px"}}  alt={"icon for project " + name}/>
             </div>
             <div style={{ position: "relative", float: "left", width: "250px", height: "100%"}}>
                 <div style={{ marginTop: "25px", fontWeight: "bold", marginLeft: "25px", backgroundColor: "#d5e0f8", textAlign: "center", fontSize: "20px"}}>

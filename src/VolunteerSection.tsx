@@ -14,7 +14,9 @@ interface VolunteerProps {
 function Volunteer({organization, logo, location, role, startDate, endDate, description}: VolunteerProps) {
     return (
         <div>
-            <div style={{ float: "left", width: "150px", height: "30px", textAlign: "center", paddingBottom: "10px", paddingTop: "10px"}}><img src={logo} className="logo-img"/></div>
+            <div style={{ float: "left", width: "150px", height: "30px", textAlign: "center", paddingBottom: "10px", paddingTop: "10px"}}>
+                <img src={logo} className="logo-img" alt={"logo for " + organization}/>
+            </div>
             <div style={{ float: "left", marginLeft: "75px", width: "775px", height: "30px" }}>
                 <span style={{ fontWeight: "bold", float: "left", fontSize: "20px"}}>{organization}</span>
                 <span style={{ float: "right"}}>{location}</span>

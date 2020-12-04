@@ -9,7 +9,7 @@ interface CompanyProps {
 function Company({logo, name, location}: CompanyProps) {
     return (
         <div>
-            <div style={{float: "left", width: "150px", height: "30px", textAlign: "center" }}><img src={logo} className="logo-img" /></div>
+            <div style={{float: "left", width: "150px", height: "30px", textAlign: "center" }}><img src={logo} className="logo-img" alt={"logo for " + name}/></div>
             <div style={{float: "left", marginLeft: "75px", width: "775px", height: "30px"}}>
                 <span style={{fontWeight: "bold", float: "left", fontSize: "20px"}}>{name}</span>
                 <span style={{float: "right"}}>{location}</span>
