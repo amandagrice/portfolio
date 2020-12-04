@@ -1,5 +1,5 @@
 import {faLink} from '@fortawesome/free-solid-svg-icons'
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 
 function Project({ logo, name, tools, description, link }) {
     return (

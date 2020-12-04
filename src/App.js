@@ -4,6 +4,7 @@ import VolunteerSection from "./VolunteerSection";
 import AboutSection from "./AboutSection";
 import ProjectsSection from "./ProjectsSection";
 import SkillsSection from "./SkillsSection";
+import ContactSection from "./ContactSection";
 
 function App() {
     return (
@@ -12,7 +13,7 @@ function App() {
             <div style={{ textAlign: 'center', fontSize: '50px' }}>Amanda Grice</div>
             <div style={{ margin: '0 auto', width: '90%', minWidth: "1000px", maxWidth: '1000px', height: '100%', marginBottom: "50px"}}>
                 <div style={{ textAlign: 'center', fontSize: '20px' }}>Software Engineer</div>
-                {/*<div style={{ height: "500px", width: "1000px", backgroundColor: "lightblue"}} />*/}
+                <ContactSection />
                 <AboutSection />
                 <img src="me.jpg" style={{ width: "1000px", borderRadius: "40px"}} />
                 <EducationSection />
@@ -27,7 +28,7 @@ function App() {
                 <br />
             </div>
             <img src="boston-2.jpg" style={{ width: "100%"}}/>
-            <div style={{ textAlign: 'center', fontSize: '10px', marginTop: "10px", marginBottom: "10px" }}>Designed By Amanda Grice</div>
+            <div style={{ textAlign: 'center', fontSize: '10px', marginTop: "10px", marginBottom: "10px" }}><ContactSection /></div>
         </div>
     );
 }
