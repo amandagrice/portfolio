@@ -1,7 +1,16 @@
 import React, {useState} from 'react'
 import {ToggleDetails} from "./Utilities";
 
-function Education({logo, school, location, degree, major, enrollment, graduation}) {
+interface EducationProps {
+    logo: string
+    school: string
+    location: string
+    degree: string
+    major?: string
+    enrollment: string
+    graduation: string
+}
+function Education({logo, school, location, degree, major, enrollment, graduation}: EducationProps) {
     return (
         <div>
             <div style={{float: "left", width: "150px", height: "30px", textAlign: "center", paddingBottom: "10px", paddingTop: "10px" }}><img src={logo} className="logo-img" /></div>

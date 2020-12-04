@@ -1,6 +1,9 @@
 import React from 'react'
 
-function Skill({have}) {
+interface SkillProps {
+    have: string
+}
+function Skill({ have }: SkillProps) {
     return (
         <div style={{
             backgroundColor: "#d5e0f8",

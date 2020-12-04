@@ -1,7 +1,12 @@
 import React, {useState} from 'react'
 import {ToggleDetails} from "./Utilities";
 
-function Company({logo, name, location}) {
+interface CompanyProps {
+    logo: string
+    name: string
+    location: string
+}
+function Company({logo, name, location}: CompanyProps) {
     return (
         <div>
             <div style={{float: "left", width: "150px", height: "30px", textAlign: "center" }}><img src={logo} className="logo-img" /></div>
@@ -15,7 +20,13 @@ function Company({logo, name, location}) {
     )
 }
 
-function Role({title, startDate, endDate, jobDescription}) {
+interface RoleProps {
+    title: string
+    startDate: string
+    endDate: string
+    jobDescription: string
+}
+function Role({title, startDate, endDate, jobDescription}: RoleProps) {
     return (
         <div style={{marginLeft: "225px"}}>
             <span style={{float: "left", fontWeight: "bold"}}>{title}</span>

@@ -1,7 +1,15 @@
 import {faLink} from '@fortawesome/free-solid-svg-icons'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import React from 'react';
 
-function Project({ logo, name, tools, description, link }) {
+interface ProjectProps {
+    logo: string
+    name: string
+    tools: string
+    description: string
+    link: string
+}
+function Project({ logo, name, tools, description, link }: ProjectProps) {
     return (
         <div style={{ height: "250px", width: "475px", backgroundColor: "#f2f2f5", marginBottom: "25px", float: "left", marginLeft: "25px"}}>
             <div style={{ float: "left"}}>

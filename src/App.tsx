@@ -2,9 +2,10 @@ import EducationSection from "./EducationSection";
 import EmploymentSection from "./EmploymentSection";
 import VolunteerSection from "./VolunteerSection";
 import AboutSection from "./AboutSection";
-import ProjectsSection from "./ProjectsSection";
-import SkillsSection from "./SkillsSection";
+import ProjectsSection from './ProjectsSection';
+import SkillsSection from './SkillsSection';
 import ContactSection from "./ContactSection";
+import React from "react";
 
 function App() {
     return (

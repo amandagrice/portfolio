@@ -1,7 +1,17 @@
+import React from "react";
 import {useState} from "react";
 import {ToggleDetails} from "./Utilities";
 
-function Volunteer({organization, logo, location, role, startDate, endDate, description}) {
+interface VolunteerProps {
+    organization: string
+    logo: string
+    location: string
+    role: string
+    startDate: string
+    endDate: string
+    description: string
+}
+function Volunteer({organization, logo, location, role, startDate, endDate, description}: VolunteerProps) {
     return (
         <div>
             <div style={{ float: "left", width: "150px", height: "30px", textAlign: "center", paddingBottom: "10px", paddingTop: "10px"}}><img src={logo} className="logo-img"/></div>
