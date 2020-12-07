@@ -94,6 +94,7 @@ function VolunteerSection() {
                 <br />
             </div>}
             <ToggleDetails showDetails={showDetails} setShowDetails={setShowDetails}/>
+            <br />
         </div>
     )
 }

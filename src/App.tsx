@@ -6,6 +6,7 @@ import ProjectsSection from './ProjectsSection';
 import SkillsSection from './SkillsSection';
 import ContactSection from "./ContactSection";
 import React from "react";
+import ContinuedEducation from "./ContinuedEducation";
 
 function App() {
     return (
@@ -26,6 +27,8 @@ function App() {
                 <ProjectsSection />
                 <hr />
                 <VolunteerSection />
+                <hr />
+                <ContinuedEducation />
                 <br />
             </div>
             <img src="boston-2.jpg" style={{ width: "100%"}} alt="Boston" />
