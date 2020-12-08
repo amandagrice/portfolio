@@ -33,7 +33,6 @@ function EducationSection() {
     return (
         <div>
             <h2>Education</h2>
-            <p>A arcu cursus vitae congue. Felis eget nunc lobortis mattis aliquam faucibus purus in. A pellentesque sit amet porttitor eget dolor. Sed turpis tincidunt id aliquet risus feugiat in ante. Quis blandit turpis cursus in hac habitasse platea. Elit at imperdiet dui accumsan sit amet nulla facilisi morbi. Turpis egestas integer eget aliquet nibh praesent tristique. Interdum varius sit amet mattis vulputate enim nulla. Pharetra pharetra massa massa ultricies mi quis hendrerit dolor. Suscipit adipiscing bibendum est ultricies integer quis auctor. Facilisi nullam vehicula ipsum a arcu cursus vitae congue mauris.</p>
             <br />
             <Education
                 school="Boston University"
@@ -47,6 +46,11 @@ function EducationSection() {
             <br />
 
             {showDetails && <div>
+                <p>I chose Boston University largely because of their amazing study abroad program. I live to travel. I was extremely fortunate to be able to spend two separate semesters in foreign countries during my undergrad. The first in New Zealand doing an internship program and taking a few courses at the University of Auckland.
+                    The second semester abroad was spent in Japan learning Japanese while I lived with a host family and took a few courses at Doshisha University in Kyoto.
+                    I think both semesters did amazing things for me. I became more self confident, made life-long friends, and learned problem-solving techniques and different ways of thinking that I still use to this day.
+                </p>
+                <br />
                 <Education
                     school="Doshisha University"
                     logo="doshisha-uni-logo.jpeg"
