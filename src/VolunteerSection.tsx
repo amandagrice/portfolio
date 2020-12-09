@@ -38,13 +38,14 @@ function VolunteerSection() {
             <h2>Volunteer Experience</h2>
             <br />
             <Volunteer
-                logo="citizen-schools-logo.png"
-                organization="Citizen Schools"
+                logo="coders-logo.png"
+                organization="Capital One Coders"
                 location="Boston, MA"
                 role="Coding Teacher"
                 startDate="February 2020"
                 endDate="Present"
-                description="Taught middle school students how to code using Scratch and MIT App Inventor. Taught high school students how to write HTML and CSS. A arcu cursus vitae congue. Felis eget nunc lobortis mattis aliquam faucibus purus in. A pellentesque sit amet porttitor eget dolor. Sed turpis tincidunt id aliquet risus feugiat in ante. Quis blandit turpis cursus in hac habitasse platea. Elit at imperdiet dui accumsan sit amet nulla facilisi morbi. "
+                description="Coders is a volunteer program I joined through working at Capital One. Coders partners with local schools to teach middle and high school students programming. I joined in February 2020 teaching middle school students how to program phone apps with Scratch and
+                MIT App Inventor. That program was unfortunately cut short in March due to COVID-19 restrictions. But we were fortunate enough to get to start up again teaching high school students HTML and CSS remotely in November."
             />
             <br />
 
@@ -67,7 +68,7 @@ function VolunteerSection() {
                     role="Street Team Member"
                     startDate="October 2018"
                     endDate="April 2019"
-                    description="I went out every Monday with the Harvard Square Homeless Shelter street team to distribute food, warm clothing, and toiletries to people in need around Harvard square. Phasellus faucibus scelerisque eleifend donec pretium vulputate. Sagittis purus sit amet volutpat consequat mauris nunc. "
+                    description="I went out every Monday with the Harvard Square Homeless Shelter street team to prepare and distribute food, warm clothing, and toiletries to people in need around Harvard square."
                 />
                 <br />
 
@@ -78,7 +79,7 @@ function VolunteerSection() {
                     role="English as a Second Language Tutor"
                     startDate="January 2017"
                     endDate="April 2017"
-                    description="During my semester abroad in Japan, I volunteered one day a week to help English-language learners practice their conversation stills. Tutoring was conducted both one-on-one and in groups of around five to six people. Eu tincidunt tortor aliquam nulla facilisi cras fermentum odio."
+                    description="During my semester abroad in Japan, I volunteered one day a week to help English-language learners practice their conversation stills. Tutoring was conducted both one-on-one and in groups of around five to six people."
                 />
                 <br />
 
@@ -89,7 +90,7 @@ function VolunteerSection() {
                     role="App Developer"
                     startDate="September 2013"
                     endDate="May 2014"
-                    description="Worked with teams of other BU students to develop mobile applications for non-profit organizations. I specialized in Android app development. Suscipit adipiscing bibendum est ultricies integer quis auctor. Facilisi nullam vehicula ipsum a arcu cursus vitae congue mauris."
+                    description="During my freshman year of undergrad I worked with teams of other BU students to develop mobile applications for non-profit organizations. I specialized in Android app development."
                 />
                 <br />
             </div>}
