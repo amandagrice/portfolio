@@ -36,7 +36,7 @@ function ProjectsSection() {
             <Project
                 name="Shenwrong"
                 logo="goku.jpg"
-                tools="Angular, JavaScript, HTML, CSS, AWS S3"
+                tools="Angular, TypeScript, HTML, CSS, AWS S3"
                 description="Website created to design custom Dragon Ball Super cards for the TCG."
                 link="http://shenwrong.com/"
             />
@@ -48,19 +48,19 @@ function ProjectsSection() {
                 link="http://socialdistancinggame.s3-website-us-east-1.amazonaws.com/"
             />
             <Project
-                name="Placeholer"
-                logo="http://placekitten.com/350/350"
-                tools="Scala, Zio"
-                description="A thing that does a magnificent thing and everyone loves it."
-                link="https://www.google.com/"
+                name="Kanji Flashcards"
+                logo="love-kanji.jpg"
+                tools="Javascript, HTML, CSS, AWS S3"
+                description="A three-sided flashcard website I made for personally studying Japanese and Mandarin."
+                link="http://threesidedflashcards.s3-website-us-east-1.amazonaws.com/"
             />
 
             <Project
-                name="Lorem Ipsum"
-                logo="http://placekitten.com/400/400"
-                tools="Python"
-                description="A pellentesque sit amet porttitor eget dolor. Sed turpis tincidunt id aliquet risus feugiat in ante. Quis blandit turpis cursus in hac habitasse platea."
-                link="https://www.google.com/"
+                name="Animal Crossing Bestiary"
+                logo="animal-crossing-cj.jpg"
+                tools="React, Javascript"
+                description="A website to keep track of fish and bugs caught in Animal Crossing."
+                link="http://animal-crossing-bestiary.s3-website-us-east-1.amazonaws.com/"
             />
             <br style={{ clear: "both"}}/>
         </div>
