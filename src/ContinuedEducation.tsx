@@ -64,6 +64,7 @@ function ContinuedEducation() {
                     <Course
                         name="The Modern World, Part One: Global History from 1760 to 1910"
                         time="October 2020 - December 2020"
+                        certificate="https://coursera.org/share/f4acaafc06a87e3d9ed36beb456ed5c0"
                     />
                 </>}
                 <Course
