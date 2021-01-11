@@ -60,19 +60,23 @@ function ContinuedEducation() {
                     <Course
                         name="Learning How to Learn"
                         time="November 2020 - December 2020"
+                        certificate="https://coursera.org/share/4e306ca41f27845cc8154cd0c8c09147"
                     />
                     <Course
                         name="The Modern World, Part One: Global History from 1760 to 1910"
                         time="October 2020 - December 2020"
+                        certificate="https://coursera.org/share/f4acaafc06a87e3d9ed36beb456ed5c0"
                     />
                 </>}
                 <Course
                     name="Visual Elements of User Interface Design"
                     time="November 2020 - December 2020"
+                    certificate="https://coursera.org/share/4c59d43d6277599c778bedd485a1e7e4"
                 />
                 <Course
                     name="Functional Programming Principles in Scala"
                     time="November 2020 - December 2020"
+                    certificate="https://coursera.org/share/e14bdd75fa90ff57cf34890aef869d77"
                 />
                 {showDetails && <>
                     <Course
