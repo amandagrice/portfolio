@@ -42,10 +42,6 @@ function EmploymentSection() {
     return (
         <div>
             <h2>Work Experience</h2>
-            <p>
-                Ut ornare lectus sit amet est placerat in. Faucibus interdum posuere lorem ipsum dolor sit amet consectetur. Consequat nisl vel pretium lectus quam. Arcu dictum varius duis at. Molestie nunc non blandit massa enim nec. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Semper viverra nam libero justo laoreet sit. Adipiscing elit pellentesque habitant morbi tristique. Vivamus at augue eget arcu. Cursus metus aliquam eleifend mi in. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at. Mattis pellentesque id nibh tortor id.
-            </p>
-            <br />
             <div>
                 <Company
                     logo="capital-one-logo.png"
@@ -56,7 +52,7 @@ function EmploymentSection() {
                     title="Software Engineer"
                     startDate="July 2019"
                     endDate="Present"
-                    jobDescription="A arcu cursus vitae congue. Felis eget nunc lobortis mattis aliquam faucibus purus in. A pellentesque sit amet porttitor eget dolor. Sed turpis tincidunt id aliquet risus feugiat in ante. Quis blandit turpis cursus in hac habitasse platea. Elit at imperdiet dui accumsan sit amet nulla facilisi morbi. Turpis egestas integer eget aliquet nibh praesent tristique. Interdum varius sit amet mattis vulputate enim nulla. Pharetra pharetra massa massa ultricies mi quis hendrerit dolor. Suscipit adipiscing bibendum est ultricies integer quis auctor. Facilisi nullam vehicula ipsum a arcu cursus vitae congue mauris."
+                    jobDescription=""
                 />
                 <br/>
             </div>

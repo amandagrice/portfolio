@@ -16,15 +16,16 @@ function App() {
             <div style={{ margin: '0 auto', width: '90%', minWidth: "1000px", maxWidth: '1000px', height: '100%', marginBottom: "50px"}}>
                 <div style={{ textAlign: 'center', fontSize: '20px' }}>Software Engineer</div>
                 <ContactSection />
-                <AboutSection />
-                <img src="me.jpg" style={{ width: "1000px", borderRadius: "40px"}} alt="Amanda Grice"/>
+                <br />
+                {/* <AboutSection /> */}
+                <img src="me.jpg" style={{ width: "1000px"}} alt="Amanda Grice"/>
                 <EducationSection />
                 <hr />
                 <SkillsSection />
                 <hr />
-                <EmploymentSection />
-                <hr />
                 <ProjectsSection />
+                <hr />
+                <EmploymentSection />
                 <hr />
                 <VolunteerSection />
                 <hr />
